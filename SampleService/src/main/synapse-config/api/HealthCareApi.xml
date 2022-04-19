@@ -19,7 +19,7 @@
             <property description="Get Hospital" expression="json-eval($.hospital)" name="Hospital" scope="default" type="STRING"/>
             <switch source="get-property('Hospital')">
                 <case regex="grand oak community hospital">
-                    <log description="GrandOakEP" level="custom">
+                    <log description="Grand Oak Log" level="custom">
                         <property expression="fn:concat('Routing to ', get-property('Hospital'))" name="message"/>
                     </log>
                     <send>
@@ -27,7 +27,7 @@
                     </send>
                 </case>
                 <case regex="clemency medical center">
-                    <log description="ClemencyEP" level="custom">
+                    <log description="Clemency Log" level="custom">
                         <property expression="fn:concat('Routing to ', get-property('Hospital'))" name="message"/>
                     </log>
                     <send>
@@ -35,7 +35,7 @@
                     </send>
                 </case>
                 <case regex="pine valley community hospital">
-                    <log description="PineValleyEP" level="custom">
+                    <log description="Pine Valley Log" level="custom">
                         <property expression="fn:concat('Routing to ', get-property('Hospital'))" name="message"/>
                     </log>
                     <send>
@@ -43,7 +43,7 @@
                     </send>
                 </case>
                 <default>
-                    <log description="FaultLog" level="custom" separator=",">
+                    <log description="Fault Log" level="custom" separator=",">
                         <property expression="fn:concat('Invalid hospital - ', get-property('Hospital'))" name="message"/>
                     </log>
                     <respond description="responder"/>
