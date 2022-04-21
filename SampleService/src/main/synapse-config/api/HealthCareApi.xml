@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<api context="/healthcare" name="HealthCareApi" xmlns="http://ws.apache.org/ns/synapse">
+<api context="/healthcare" name="HealthcareAPI" xmlns="http://ws.apache.org/ns/synapse">
     <resource methods="GET" uri-template="/querydoctor/{category}">
         <inSequence>
             <log description="Request Log" level="custom">
-                <property name="message" value="Welcome to HealthcareService"/>
+                <property name="message" value="&quot;Welcome to HealthcareService&quot;"/>
             </log>
             <send>
                 <endpoint key="QueryDoctorEP"/>
@@ -20,7 +20,7 @@
             <switch source="get-property('Hospital')">
                 <case regex="grand oak community hospital">
                     <log description="Grand Oak Log" level="custom">
-                        <property expression="fn:concat('Routing to ', get-property('Hospital'))" name="message"/>
+                        <property expression="fn:concat('Routing to ', get-property('Hospital')) " name="message"/>
                     </log>
                     <send>
                         <endpoint key="GrandOakEP"/>
@@ -43,14 +43,16 @@
                     </send>
                 </case>
                 <default>
-                    <log description="Fault Log" level="custom" separator=",">
+                    <log description="Fault Log" level="custom">
                         <property expression="fn:concat('Invalid hospital - ', get-property('Hospital'))" name="message"/>
                     </log>
-                    <respond description="responder"/>
+                    <respond/>
                 </default>
             </switch>
         </inSequence>
-        <outSequence/>
+        <outSequence>
+            <send/>
+        </outSequence>
         <faultSequence/>
     </resource>
 </api>
