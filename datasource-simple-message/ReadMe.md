@@ -2,10 +2,10 @@
 
 In This WSO2 Enterprise Integrator tutorial we're going to send a simple message to a datasource to get a list of doctors. To see the architecture of what we're trying to create/solve open the architecture image file. The list of doctors will be retrieved by:
 1. All doctors:
-Resource Path /getAllDoctors
+Resource Path /getAllDoctors   
 Resource method - GET
 2. Doctors by speciality:
-Resource path /getDoctors
+Resource path /getDoctors  
 Resource Method - GET
 
 We are going to deploy and send a message to ESB to retrieve these doctors. For simplicity, a Postman collection has been uploaded (see Postman collection) to easily upload the requests to Postman once the tutorial is complete. 
