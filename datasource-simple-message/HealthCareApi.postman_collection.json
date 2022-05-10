@@ -1,0 +1,165 @@
+{
+	"info": {
+		"_postman_id": "751c691d-dabd-4bb8-840f-9ae89852ffe0",
+		"name": "HealthCareApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Surgery-Get-Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8280/services/DOCTORS_DataService/getDoctors?SPECIALITY=surgery",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8280",
+					"path": [
+						"services",
+						"DOCTORS_DataService",
+						"getDoctors"
+					],
+					"query": [
+						{
+							"key": "SPECIALITY",
+							"value": "surgery"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All-Doctors-Get-Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8280/services/DOCTORS_DataService/getAllDoctors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8280",
+					"path": [
+						"services",
+						"DOCTORS_DataService",
+						"getAllDoctors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "gynaecology-Get-Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8280/services/DOCTORS_DataService/getDoctors?SPECIALITY=gynaecology",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8280",
+					"path": [
+						"services",
+						"DOCTORS_DataService",
+						"getDoctors"
+					],
+					"query": [
+						{
+							"key": "SPECIALITY",
+							"value": "gynaecology"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ent-Get-Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8280/services/DOCTORS_DataService/getDoctors?SPECIALITY=ent",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8280",
+					"path": [
+						"services",
+						"DOCTORS_DataService",
+						"getDoctors"
+					],
+					"query": [
+						{
+							"key": "SPECIALITY",
+							"value": "ent"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "paediatric-Get-Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8280/services/DOCTORS_DataService/getDoctors?SPECIALITY=paediatric",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8280",
+					"path": [
+						"services",
+						"DOCTORS_DataService",
+						"getDoctors"
+					],
+					"query": [
+						{
+							"key": "SPECIALITY",
+							"value": "paediatric"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cardiology-Get-Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8280/services/DOCTORS_DataService/getDoctors?SPECIALITY=cardiology",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8280",
+					"path": [
+						"services",
+						"DOCTORS_DataService",
+						"getDoctors"
+					],
+					"query": [
+						{
+							"key": "SPECIALITY",
+							"value": "cardiology"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
