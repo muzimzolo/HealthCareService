@@ -72,88 +72,19 @@ Please find Postman Collection to run tests and if you get a 200 status OK then 
 Your output should look as follows:
 Request - http://localhost:8280/services/DOCTORS_DataService/getAllDoctors
 
-Status: 200 OK
-Output: <DOCTORSCollection xmlns="http://ws.wso2.org/dataservice">
-    <DOCTOR>
-        <NAME>thomas collins</NAME>
-        <HOSPITAL>grand oak community hospital</HOSPITAL>
-        <SPECIALITY>surgery</SPECIALITY>
-        <AVAILABILITY>9.00 a.m - 11.00 a.m</AVAILABILITY>
-        <CHARGE>7000</CHARGE>
-    </DOCTOR>
-    <DOCTOR>
-        <NAME>henry parker</NAME>
-        <HOSPITAL>grand oak community hospital</HOSPITAL>
-        <SPECIALITY>ent</SPECIALITY>
-        <AVAILABILITY>9.00 a.m - 11.00 a.m</AVAILABILITY>
-        <CHARGE>4500</CHARGE>
-    </DOCTOR>
-    <DOCTOR>
-        <NAME>abner jones</NAME>
-        <HOSPITAL>grand oak community hospital</HOSPITAL>
-        <SPECIALITY>gynaecology</SPECIALITY>
-        <AVAILABILITY>8.00 a.m - 10.00 a.m</AVAILABILITY>
-        <CHARGE>11000</CHARGE>
-    </DOCTOR>
-    <DOCTOR>
-        <NAME>abner jones</NAME>
-        <HOSPITAL>grand oak community hospital</HOSPITAL>
-        <SPECIALITY>ent</SPECIALITY>
-        <AVAILABILITY>8.00 a.m - 10.00 a.m</AVAILABILITY>
-        <CHARGE>6750</CHARGE>
-    </DOCTOR>
-    <DOCTOR>
-        <NAME>anne clement</NAME>
-        <HOSPITAL>clemency medical center</HOSPITAL>
-        <SPECIALITY>surgery</SPECIALITY>
-        <AVAILABILITY>8.00 a.m - 10.00 a.m</AVAILABILITY>
-        <CHARGE>12000</CHARGE>
-    </DOCTOR>
-    <DOCTOR>
-        <NAME>thomas kirk</NAME>
-        <HOSPITAL>clemency medical center</HOSPITAL>
-        <SPECIALITY>gynaecology</SPECIALITY>
-        <AVAILABILITY>9.00 a.m - 11.00 a.m</AVAILABILITY>
-        <CHARGE>8000</CHARGE>
-    </DOCTOR>
-    <DOCTOR>
-        <NAME>cailen cooper</NAME>
-        <HOSPITAL>clemency medical center</HOSPITAL>
-        <SPECIALITY>paediatric</SPECIALITY>
-        <AVAILABILITY>9.00 a.m - 11.00 a.m</AVAILABILITY>
-        <CHARGE>5500</CHARGE>
-    </DOCTOR>
-    <DOCTOR>
-        <NAME>seth mears</NAME>
-        <HOSPITAL>pine valley community hospital</HOSPITAL>
-        <SPECIALITY>surgery</SPECIALITY>
-        <AVAILABILITY>3.00 p.m - 5.00 p.m</AVAILABILITY>
-        <CHARGE>8000</CHARGE>
-    </DOCTOR>
-    <DOCTOR>
-        <NAME>emeline fulton</NAME>
-        <HOSPITAL>pine valley community hospital</HOSPITAL>
-        <SPECIALITY>cardiology</SPECIALITY>
-        <AVAILABILITY>8.00 a.m - 10.00 a.m</AVAILABILITY>
-        <CHARGE>4000</CHARGE>
-    </DOCTOR>
-    <DOCTOR>
-        <NAME>jared morris</NAME>
-        <HOSPITAL>willow gardens general hospital</HOSPITAL>
-        <SPECIALITY>cardiology</SPECIALITY>
-        <AVAILABILITY>9.00 a.m - 11.00 a.m</AVAILABILITY>
-        <CHARGE>10000</CHARGE>
-    </DOCTOR>
-    <DOCTOR>
-        <NAME>henry foster</NAME>
-        <HOSPITAL>willow gardens general hospital</HOSPITAL>
-        <SPECIALITY>paediatric</SPECIALITY>
-        <AVAILABILITY>8.00 a.m - 10.00 a.m</AVAILABILITY>
-        <CHARGE>10000</CHARGE>
-    </DOCTOR>
-</DOCTORSCollection>
+Status: 200 OK    
 
-On assumption that you made a request to all doctors
+Sample output
+   <DOCTOR>  
+        <NAME>thomas collins</NAME>  
+        <HOSPITAL>grand oak community hospital</HOSPITAL>  
+        <SPECIALITY>surgery</SPECIALITY>  
+        <AVAILABILITY>9.00 a.m - 11.00 a.m</AVAILABILITY>  
+        <CHARGE>7000</CHARGE>  
+    </DOCTOR>  
+    <DOCTOR>  
+
+You should find a long list of doctors on assumption that you made a request to all doctors
 
 
 
