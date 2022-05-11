@@ -2,6 +2,7 @@
 
 WSO2 project covering the enterprise integrator to work with a health care service API. This project is from the WSO2 EI tutorials https://docs.wso2.com/display/EI660/Tutorials?src=sidebar
 The aim of the project is to show knowledge and skill of WSO2 by completing the labs. 
+![Alt text](https://docs.wso2.com/download/attachments/141238723/Screen%20Shot%202017-04-05%20at%202.12.23%20PM.png?version=1&modificationDate=1576209870000&api=v2 "a title")
 
 ### Preface
 A patient wants to make a doctor reservation for a specific need i.e. surgery I want to make sure the patient making the request on the API finds the right doctor to meet this need. That is the problem that I aim to solve. An API has been created using WSO2 technologies as the solution 
